@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>A website</title>
+  </head>
+  <style>
+   #button {
+     border:5px solid #ffab33;
+     width:150px;
+     text-align:center;
+     padding:10px;
+     font-size:30px;
+     cursor:pointer;
+     margin:auto;
+     background:#ff5733;
+   }
+   #button:hover{
+     background:#dff30b;
+   }
+   #message{
+     font-size:20px;
+    margin-bottom:30px;
+    text-align:center;
+    font-family:Monospace;
+   }
+   .hide{
+     visibility: hidden;
+   }
+   .reveal{
+     visibility:visible;
+   }
+  </style>
+  <body>
+    <div class="wrapper">
+     <div id="message"  class="hide">You wont see this text until after you clicked the button. Click again to hide me!
+     </div>
+     <div id="button">
+       Click me!
+     </div>
+    </div>
+  </body>
+ 
+
+  <script src="doit.js">
+    
+  </script>
+</html>
